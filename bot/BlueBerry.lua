@@ -1,6 +1,6 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-bot_token = "Token" --Put You Token Here
+bot_token = "425517723:AAHWvWe5ZE87016Bq498JRubemchP1lslZE" --Put You Token Here
 send_api = "https://api.telegram.org/bot"..bot_token
 sudo_id = ----
 require('./bot/methods')
@@ -133,16 +133,13 @@ function create_config( )
     "BlueBerry",
     "plugins"
     },
-    sudo_users = {311231963,428063598,SUDO_ID},--Sudo users
+    sudo_users = {274807882},--Sudo users
     admins = {},
     disabled_channels = {},
-    info_text = [[*BlueBerry AntiSpam Bot V1*
-	*Programmer:* 
-	[SoliDev](t.me/solidev)
-	[lucas](t.me/deve_telegram)
-	*GitHub:*
-	github.com/blueberryteam/BlueBerryApi
-	Channel: [BlueBerryTeam](T.me/BlueBerryTeam)
+    info_text = [[*Maximus AntiSpam*
+		Version 3.7
+	Made by [Awmin](https://t.me/pedaret)
+		channel : [Secure](https://t.me/Secure_Channel
 ]],
   }
   serialize_to_file(config, './data/config.lua')
