@@ -175,7 +175,7 @@ local function setting(msg)
 -----------------------------------
 	local function Help(msg)
 	return [[
-	Help BlueBerryTeam
+	Help MaximusBot
 
 */id* `[reply]`
 _Show Your And Chat ID_
@@ -301,7 +301,7 @@ end
 if matches[1] == "help" and is_mod(msg) then
  return Help(msg)
 end
-if matches[1] == "blueberry" and is_mod(msg) then
+if matches[1] == "maximus" and is_mod(msg) then
 return  _config.info_text
 end
 -------------------------
@@ -839,7 +839,7 @@ return {
 "^[!/#](setrules) (.*)$",
 "^[!/#](rules)$",
 "^[!/#](clean) (.*)$",
-"^[!/#](blueberry)$",
+"^[!/#](maximus)$",
 "^[!/#](setflood) (%d+)$",
 "^[!/#](setfloodtime) (%d+)$",
 "^(https://telegram.me/joinchat/%S+)$",
